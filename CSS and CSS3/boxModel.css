@@ -1,0 +1,12 @@
+div{
+    /* border-color: red;
+    border-width: 2px;
+    border-style: solid; */
+    border: solid red 1px;
+    padding: 20px;
+    width: 20%;
+    height: 200px;
+    margin: 20pt;
+    float: left;
+    /* position: absolute; */
+}
