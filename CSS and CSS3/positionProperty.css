@@ -1,0 +1,33 @@
+.box {
+    display: inline-block;
+}
+
+#d1 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+#d2 {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+    position: relative;
+}
+
+#d3 {
+    background-color: indigo;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 200px;
+    position: absolute;
+}
+
+#d4 {
+    background-color: lawngreen;
+    width: 100px;
+    height: 100px;
+}

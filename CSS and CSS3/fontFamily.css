@@ -1,0 +1,15 @@
+.fontClass{
+    font-size: 30pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+/* pt means point */
+
+.textClass {
+    /* text-align: center; */
+    text-transform: uppercase;
+    text-indent: 20px;
+    text-shadow: 2px 2px coral;
+    letter-spacing: 5px;
+}
