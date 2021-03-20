@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="loginValidation.js"></script>
+</head>
+<body>
+    <h2>Validation using Javascript</h2>
+    <form action="home.html" method="get" onsubmit="return validate()">
+        <label for="">UserName</label>
+        <input type="text" name="user" id="user"><br/>
+        <label for="">Password</label>
+        <input type="password" name="pass" id="pass"><br/>
+        <input type="submit" value="submit">
+    </form>
+    <hr/>
+    <form action="home.html" method="get">
+        <label for="">UserName</label>
+        <input type="text" name="user" id="user5" required minlength="2"><br/>
+        <label for="">Password</label>
+        <input type="password" name="pass" id="pass5" required minlength="8"><br/>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
